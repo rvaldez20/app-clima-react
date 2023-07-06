@@ -15,6 +15,8 @@ const Formulario = () => {
          return
       }
 
+      setAlerta('')
+
       // si pasa la validación
       consultarClima(busqueda)
    }

@@ -4,10 +4,10 @@ import useClima from "../hooks/useClima"
 const Resultado = () => {
 
    const {resultado} = useClima()
-   console.log(resultado)
+   // console.log(resultado)
 
    const {name, main} = resultado;
-   console.log(main)
+   // console.log(main)
 
    //Grados Kelvin
    const kelvin = 273.15
